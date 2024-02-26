@@ -11,7 +11,7 @@ void odd()
   }
   else
   {
-    print('a is odd');
+    print('a is  odd  ');
   }
 
 
