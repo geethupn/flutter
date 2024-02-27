@@ -1,9 +1,8 @@
 import 'dart:io';
 
-void pali()
+bool pali(int n)
 {
-  print('enter a number');
-  int n=int.parse(stdin.readLineSync()!);
+ 
   int rev=0,rem,temp;
   temp=n;
   while(n!=0)
@@ -15,10 +14,10 @@ void pali()
   }
   if(temp==rev)
   {
-    print('it is palindrome');
+    return true;
   }
   else
   {
-    print('it is not palindrome');
+    return false;
   }
   }

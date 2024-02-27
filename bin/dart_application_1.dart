@@ -7,6 +7,7 @@ import 'armstrong.dart';
 import 'commondi.dart';
 import 'fact.dart';
 import 'fib.dart';
+import 'gcd.dart';
 import 'leap.dart';
 import 'naturaalsum.dart';
 import 'oddeven.dart';
@@ -22,9 +23,10 @@ void main() {
 //leap();
 //prime();
 //arms();
-//pali();
+//print(pali(121));
 //sum();
 //pattern();
 //area();
-fib();
+//fib();
+gcd();
 }

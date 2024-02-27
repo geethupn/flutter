@@ -16,11 +16,11 @@ void arms()
   }
   if(temp==sum)
   {
-    print('armstrong number');
+    print('the  number is armstrong');
 
   }
   else
   {
-    print('not armstrong number');
+    print('the number is not a armstrong ');
   }
 }

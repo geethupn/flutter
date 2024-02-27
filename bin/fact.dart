@@ -11,6 +11,6 @@ void fact()
 
   }
  
-  print(fact);
+  print(factorial);
 
 }
