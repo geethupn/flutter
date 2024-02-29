@@ -5,15 +5,20 @@
 import 'area.dart';
 import 'armstrong.dart';
 import 'commondi.dart';
+import 'email.dart';
 import 'fact.dart';
 import 'fib.dart';
 import 'gcd.dart';
 import 'leap.dart';
+import 'mul.dart';
 import 'naturaalsum.dart';
 import 'oddeven.dart';
 import 'palindrome.dart';
 import 'pattern.dart';
 import 'prime.dart';
+import 'pyramid.dart';
+import 'rev.dart';
+import 'vowel.dart';
 
 
 void main() {
@@ -28,5 +33,10 @@ void main() {
 //pattern();
 //area();
 //fib();
-gcd();
+//gcd();
+//mul();
+//rev();
+//pyramid();
+//vowel();
+email();
 }

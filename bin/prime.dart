@@ -2,13 +2,14 @@ import 'dart:io';
 
 void prime()
 {
-  print('enter the limit');
+  print('enter the range');
   int  flag=0;
   int n=int.parse(stdin.readLineSync()!);
   for(int i=1;i<=n;i++)
   {
     if(i==0|| i==1)
-      continue;
+     { continue;
+     }
     flag=1;
     for(int j=2;j<=i/2;j++)
     {
@@ -19,7 +20,8 @@ void prime()
       }
     }
     if(flag==1)
-    print(i);
+   { print(i);
+   }
   }
 
     
