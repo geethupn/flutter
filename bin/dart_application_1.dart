@@ -4,6 +4,7 @@
 
 import 'area.dart';
 import 'armstrong.dart';
+import 'bcdtodecimal.dart';
 import 'commondi.dart';
 import 'email.dart';
 import 'fact.dart';
@@ -18,6 +19,8 @@ import 'pattern.dart';
 import 'prime.dart';
 import 'pyramid.dart';
 import 'rev.dart';
+import 'revlist.dart';
+import 'swaplist.dart';
 import 'vowel.dart';
 
 
@@ -32,11 +35,14 @@ void main() {
 //sum();
 //pattern();
 //area();
-//fib();
+fib();
 //gcd();
 //mul();
 //rev();
 //pyramid();
 //vowel();
-email();
+//email();
+//revlist();
+//bcd();
+//swapp();
 }

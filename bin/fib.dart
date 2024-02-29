@@ -2,7 +2,7 @@ import 'dart:io';
 
 void fib()
 {
-  print('enter the limit');
+  print('enter the range');
   int num=int.parse(stdin.readLineSync()!);
   int n1=0,n2=1,n3,i;
   print('fibanocci series is');
