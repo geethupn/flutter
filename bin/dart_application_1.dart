@@ -3,18 +3,24 @@
 
 
 import 'area.dart';
+import 'areaclass.dart';
 import 'armstrong.dart';
 import 'bcdtodecimal.dart';
+import 'break.dart';
+import 'class.dart';
 import 'commondi.dart';
 import 'email.dart';
 import 'fact.dart';
 import 'fib.dart';
+
 import 'gcd.dart';
 import 'leap.dart';
+import 'listt.dart';
 import 'mul.dart';
 import 'naturaalsum.dart';
 import 'oddeven.dart';
 import 'palindrome.dart';
+import 'patt.dart';
 import 'pattern.dart';
 import 'prime.dart';
 import 'pyramid.dart';
@@ -35,7 +41,7 @@ void main() {
 //sum();
 //pattern();
 //area();
-fib();
+//fib();
 //gcd();
 //mul();
 //rev();
@@ -45,4 +51,12 @@ fib();
 //revlist();
 //bcd();
 //swapp();
+//patt();
+//brak();
+//listt();
+//person p=person();
+//p.printDetails();
+rectangle r=rectangle(2,3);
+r.calculatearea();
+r.caculateperimeter();
 }
