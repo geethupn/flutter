@@ -14,6 +14,9 @@ import 'fact.dart';
 import 'fib.dart';
 
 import 'gcd.dart';
+import 'inheritance.dart';
+import 'inheritancee.dart';
+import 'inheritlist.dart';
 import 'leap.dart';
 import 'listt.dart';
 import 'mul.dart';
@@ -27,6 +30,7 @@ import 'pyramid.dart';
 import 'rev.dart';
 import 'revlist.dart';
 import 'swaplist.dart';
+import 'vehicle.dart';
 import 'vowel.dart';
 
 
@@ -56,7 +60,17 @@ void main() {
 //listt();
 //person p=person();
 //p.printDetails();
-rectangle r=rectangle(2,3);
-r.calculatearea();
-r.caculateperimeter();
+//rectangle r=rectangle(2,3);
+//r.calculatearea();
+//r.caculateperimeter();
+//Bmw b=Bmw();
+//b.move();
+//b.roof();
+//Laptop obj=Laptop(101,"hp","6gb");
+//obj.details();
+//House h=House(100,"puthillam","2 lakh");
+//h.main();
+Vehicle v=Vehicle("j", "l", 1);
+v.vehicledetails();
+
 }
