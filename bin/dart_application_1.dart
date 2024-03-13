@@ -5,11 +5,13 @@
 import 'area.dart';
 import 'areaclass.dart';
 import 'armstrong.dart';
+import 'bank.dart';
 import 'bcdtodecimal.dart';
 import 'break.dart';
 import 'class.dart';
 import 'commondi.dart';
 import 'email.dart';
+import 'encaps.dart';
 import 'fact.dart';
 import 'fib.dart';
 
@@ -70,7 +72,20 @@ void main() {
 //obj.details();
 //House h=House(100,"puthillam","2 lakh");
 //h.main();
-Vehicle v=Vehicle("j", "l", 1);
-v.vehicledetails();
+//Vehicle v=Vehicle("j", "l", 1);
+//v.vehicledetails();
+structure s=structure();
+//s.setvalue("geethu", 20, 5);
+//s.getdetails();
+Bankaccount b=Bankaccount("12345","geethu");
+b.deposit(0);
+b.withdraw(300);
+b.getbalance();
+Bankaccount ba=Bankaccount("12346","ammu");
+b.deposit(500);
+b.withdraw(200);
+b.getbalance();
+
+
 
 }
